@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(images/nathan-dumlao-ciO5L8pin8A-unsplash-2.jpg);
+    background-size: 1200px;
+}
+
+header {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.logo {
+    align-content: flex-start;
+    border-radius: 4px;
+    padding: 5px;
+    width: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+img {
+    width: 50px
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    font-family: 'Inter', sans-serif;
+}
+nav a {
+    padding: .5em;
+    color: white;
+    transition: all 1.5s ease;
+}
+
+nav a:hover {
+    color: black;
+    background-color: lightgray;
+    border-radius: 100px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+}
+
+p {
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+}
