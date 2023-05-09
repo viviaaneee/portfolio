@@ -60,4 +60,17 @@ p {
     top: 57%;
     left: 50%;
     white-space: nowrap;
+    animation: big 1s 1s infinite alternate linear;
 }
+
+@keyframes big {
+    from {
+        color: white;
+        font: 1rem;
+    }
+    to {
+        color: rgb(97, 135, 97);
+        font: 2rem;
+    }
+}
+

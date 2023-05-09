@@ -12,7 +12,7 @@ html {
 }
 
 body{
-    background-size: 1000px;
+    background-size: 1250px;
     background-image: url(images/IMG_9295\ 2.jpg)
 }
 
@@ -64,10 +64,23 @@ h1 {
     text-align: center;
 }
 
+@keyframes big {
+
+    from {
+        color: black;
+        font-size: 1rem;
+    }
+    to {
+        color: rgb(97, 135, 97);
+        font: 2rem;
+    }
+}
+
 .container {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+    animation: big 1s 1s infinite alternate linear;
 
 }
 
@@ -80,4 +93,12 @@ h1 {
     left: 40%;
     white-space: nowrap;
     border: 2px solid rgba(0, 0, 0, 0.34);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding-left: 50%;
 }
